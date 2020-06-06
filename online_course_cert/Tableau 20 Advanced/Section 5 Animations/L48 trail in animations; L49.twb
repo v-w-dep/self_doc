@@ -1,0 +1,1978 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0515.1630                               -->
+<workbook original-version='18.1' source-build='2019.2.0 (20192.19.0515.1630)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='classic' />
+  <datasources>
+    <datasource caption='Data (P11-Country-Population)' inline='true' name='federated.1tv75om1xp8x5r19fwljt1yzn5cn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Country-Population' name='excel-direct.0yqilwj0xo726l1fky5og0fwtgqa'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/viwong/OneDrive - HKTDC/vicwork/online course/Tableau/Tableau 10 Advanced Training - Master Tableau in data science/Section 5 Animations/P11-Country-Population.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0yqilwj0xo726l1fky5og0fwtgqa' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='integer' name='1960' ordinal='4' />
+              <column datatype='integer' name='1961' ordinal='5' />
+              <column datatype='integer' name='1962' ordinal='6' />
+              <column datatype='integer' name='1963' ordinal='7' />
+              <column datatype='integer' name='1964' ordinal='8' />
+              <column datatype='integer' name='1965' ordinal='9' />
+              <column datatype='integer' name='1966' ordinal='10' />
+              <column datatype='integer' name='1967' ordinal='11' />
+              <column datatype='integer' name='1968' ordinal='12' />
+              <column datatype='integer' name='1969' ordinal='13' />
+              <column datatype='integer' name='1970' ordinal='14' />
+              <column datatype='integer' name='1971' ordinal='15' />
+              <column datatype='integer' name='1972' ordinal='16' />
+              <column datatype='integer' name='1973' ordinal='17' />
+              <column datatype='integer' name='1974' ordinal='18' />
+              <column datatype='integer' name='1975' ordinal='19' />
+              <column datatype='integer' name='1976' ordinal='20' />
+              <column datatype='integer' name='1977' ordinal='21' />
+              <column datatype='integer' name='1978' ordinal='22' />
+              <column datatype='integer' name='1979' ordinal='23' />
+              <column datatype='integer' name='1980' ordinal='24' />
+              <column datatype='integer' name='1981' ordinal='25' />
+              <column datatype='integer' name='1982' ordinal='26' />
+              <column datatype='integer' name='1983' ordinal='27' />
+              <column datatype='integer' name='1984' ordinal='28' />
+              <column datatype='integer' name='1985' ordinal='29' />
+              <column datatype='integer' name='1986' ordinal='30' />
+              <column datatype='integer' name='1987' ordinal='31' />
+              <column datatype='integer' name='1988' ordinal='32' />
+              <column datatype='integer' name='1989' ordinal='33' />
+              <column datatype='integer' name='1990' ordinal='34' />
+              <column datatype='integer' name='1991' ordinal='35' />
+              <column datatype='integer' name='1992' ordinal='36' />
+              <column datatype='integer' name='1993' ordinal='37' />
+              <column datatype='integer' name='1994' ordinal='38' />
+              <column datatype='integer' name='1995' ordinal='39' />
+              <column datatype='integer' name='1996' ordinal='40' />
+              <column datatype='integer' name='1997' ordinal='41' />
+              <column datatype='integer' name='1998' ordinal='42' />
+              <column datatype='integer' name='1999' ordinal='43' />
+              <column datatype='integer' name='2000' ordinal='44' />
+              <column datatype='integer' name='2001' ordinal='45' />
+              <column datatype='integer' name='2002' ordinal='46' />
+              <column datatype='integer' name='2003' ordinal='47' />
+              <column datatype='integer' name='2004' ordinal='48' />
+              <column datatype='integer' name='2005' ordinal='49' />
+              <column datatype='integer' name='2006' ordinal='50' />
+              <column datatype='integer' name='2007' ordinal='51' />
+              <column datatype='integer' name='2008' ordinal='52' />
+              <column datatype='integer' name='2009' ordinal='53' />
+              <column datatype='integer' name='2010' ordinal='54' />
+              <column datatype='integer' name='2011' ordinal='55' />
+              <column datatype='integer' name='2012' ordinal='56' />
+              <column datatype='integer' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BF216:no:A1:BF216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.531111' measure-ordering='alphabetic' measure-percentage='0.468889' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Data (P11-Fertility-Rate)' inline='true' name='federated.0jbmvs3072iz9u1g8s42i13q6lfh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Fertility-Rate' name='excel-direct.0mnc6hw0ugwaz0162u4gh0bhpelr'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/viwong/OneDrive - HKTDC/vicwork/online course/Tableau/Tableau 10 Advanced Training - Master Tableau in data science/Section 5 Animations/P11-Fertility-Rate.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.0mnc6hw0ugwaz0162u4gh0bhpelr' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='real' name='1960' ordinal='4' />
+              <column datatype='real' name='1961' ordinal='5' />
+              <column datatype='real' name='1962' ordinal='6' />
+              <column datatype='real' name='1963' ordinal='7' />
+              <column datatype='real' name='1964' ordinal='8' />
+              <column datatype='real' name='1965' ordinal='9' />
+              <column datatype='real' name='1966' ordinal='10' />
+              <column datatype='real' name='1967' ordinal='11' />
+              <column datatype='real' name='1968' ordinal='12' />
+              <column datatype='real' name='1969' ordinal='13' />
+              <column datatype='real' name='1970' ordinal='14' />
+              <column datatype='real' name='1971' ordinal='15' />
+              <column datatype='real' name='1972' ordinal='16' />
+              <column datatype='real' name='1973' ordinal='17' />
+              <column datatype='real' name='1974' ordinal='18' />
+              <column datatype='real' name='1975' ordinal='19' />
+              <column datatype='real' name='1976' ordinal='20' />
+              <column datatype='real' name='1977' ordinal='21' />
+              <column datatype='real' name='1978' ordinal='22' />
+              <column datatype='real' name='1979' ordinal='23' />
+              <column datatype='real' name='1980' ordinal='24' />
+              <column datatype='real' name='1981' ordinal='25' />
+              <column datatype='real' name='1982' ordinal='26' />
+              <column datatype='real' name='1983' ordinal='27' />
+              <column datatype='real' name='1984' ordinal='28' />
+              <column datatype='real' name='1985' ordinal='29' />
+              <column datatype='real' name='1986' ordinal='30' />
+              <column datatype='real' name='1987' ordinal='31' />
+              <column datatype='real' name='1988' ordinal='32' />
+              <column datatype='real' name='1989' ordinal='33' />
+              <column datatype='real' name='1990' ordinal='34' />
+              <column datatype='real' name='1991' ordinal='35' />
+              <column datatype='real' name='1992' ordinal='36' />
+              <column datatype='real' name='1993' ordinal='37' />
+              <column datatype='real' name='1994' ordinal='38' />
+              <column datatype='real' name='1995' ordinal='39' />
+              <column datatype='real' name='1996' ordinal='40' />
+              <column datatype='real' name='1997' ordinal='41' />
+              <column datatype='real' name='1998' ordinal='42' />
+              <column datatype='real' name='1999' ordinal='43' />
+              <column datatype='real' name='2000' ordinal='44' />
+              <column datatype='real' name='2001' ordinal='45' />
+              <column datatype='real' name='2002' ordinal='46' />
+              <column datatype='real' name='2003' ordinal='47' />
+              <column datatype='real' name='2004' ordinal='48' />
+              <column datatype='real' name='2005' ordinal='49' />
+              <column datatype='real' name='2006' ordinal='50' />
+              <column datatype='real' name='2007' ordinal='51' />
+              <column datatype='real' name='2008' ordinal='52' />
+              <column datatype='real' name='2009' ordinal='53' />
+              <column datatype='real' name='2010' ordinal='54' />
+              <column datatype='real' name='2011' ordinal='55' />
+              <column datatype='real' name='2012' ordinal='56' />
+              <column datatype='real' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BF216:no:A1:BF216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Fertility Rate' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.521538' measure-ordering='alphabetic' measure-percentage='0.478462' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Data (P11-Life-Expectancy-At-Birth)' inline='true' name='federated.1yp44dn0wced6e16gxa4g0id676b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Life-Expectancy-At-Birth' name='excel-direct.1cz51x30xd8dou1ahk9dw0k25nn7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/viwong/OneDrive - HKTDC/vicwork/online course/Tableau/Tableau 10 Advanced Training - Master Tableau in data science/Section 5 Animations/P11-Life-Expectancy-At-Birth.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='real' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[1960]' />
+            <value name='[1961]' />
+            <value name='[1962]' />
+            <value name='[1963]' />
+            <value name='[1964]' />
+            <value name='[1965]' />
+            <value name='[1966]' />
+            <value name='[1967]' />
+            <value name='[1968]' />
+            <value name='[1969]' />
+            <value name='[1970]' />
+            <value name='[1971]' />
+            <value name='[1972]' />
+            <value name='[1973]' />
+            <value name='[1974]' />
+            <value name='[1975]' />
+            <value name='[1976]' />
+            <value name='[1977]' />
+            <value name='[1978]' />
+            <value name='[1979]' />
+            <value name='[1980]' />
+            <value name='[1981]' />
+            <value name='[1982]' />
+            <value name='[1983]' />
+            <value name='[1984]' />
+            <value name='[1985]' />
+            <value name='[1986]' />
+            <value name='[1987]' />
+            <value name='[1988]' />
+            <value name='[1989]' />
+            <value name='[1990]' />
+            <value name='[1991]' />
+            <value name='[1992]' />
+            <value name='[1993]' />
+            <value name='[1994]' />
+            <value name='[1995]' />
+            <value name='[1996]' />
+            <value name='[1997]' />
+            <value name='[1998]' />
+            <value name='[1999]' />
+            <value name='[2000]' />
+            <value name='[2001]' />
+            <value name='[2002]' />
+            <value name='[2003]' />
+            <value name='[2004]' />
+            <value name='[2005]' />
+            <value name='[2006]' />
+            <value name='[2007]' />
+            <value name='[2008]' />
+            <value name='[2009]' />
+            <value name='[2010]' />
+            <value name='[2011]' />
+            <value name='[2012]' />
+            <value name='[2013]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data].[1960]' />
+              <field name='[Data].[1961]' />
+              <field name='[Data].[1962]' />
+              <field name='[Data].[1963]' />
+              <field name='[Data].[1964]' />
+              <field name='[Data].[1965]' />
+              <field name='[Data].[1966]' />
+              <field name='[Data].[1967]' />
+              <field name='[Data].[1968]' />
+              <field name='[Data].[1969]' />
+              <field name='[Data].[1970]' />
+              <field name='[Data].[1971]' />
+              <field name='[Data].[1972]' />
+              <field name='[Data].[1973]' />
+              <field name='[Data].[1974]' />
+              <field name='[Data].[1975]' />
+              <field name='[Data].[1976]' />
+              <field name='[Data].[1977]' />
+              <field name='[Data].[1978]' />
+              <field name='[Data].[1979]' />
+              <field name='[Data].[1980]' />
+              <field name='[Data].[1981]' />
+              <field name='[Data].[1982]' />
+              <field name='[Data].[1983]' />
+              <field name='[Data].[1984]' />
+              <field name='[Data].[1985]' />
+              <field name='[Data].[1986]' />
+              <field name='[Data].[1987]' />
+              <field name='[Data].[1988]' />
+              <field name='[Data].[1989]' />
+              <field name='[Data].[1990]' />
+              <field name='[Data].[1991]' />
+              <field name='[Data].[1992]' />
+              <field name='[Data].[1993]' />
+              <field name='[Data].[1994]' />
+              <field name='[Data].[1995]' />
+              <field name='[Data].[1996]' />
+              <field name='[Data].[1997]' />
+              <field name='[Data].[1998]' />
+              <field name='[Data].[1999]' />
+              <field name='[Data].[2000]' />
+              <field name='[Data].[2001]' />
+              <field name='[Data].[2002]' />
+              <field name='[Data].[2003]' />
+              <field name='[Data].[2004]' />
+              <field name='[Data].[2005]' />
+              <field name='[Data].[2006]' />
+              <field name='[Data].[2007]' />
+              <field name='[Data].[2008]' />
+              <field name='[Data].[2009]' />
+              <field name='[Data].[2010]' />
+              <field name='[Data].[2011]' />
+              <field name='[Data].[2012]' />
+              <field name='[Data].[2013]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1cz51x30xd8dou1ahk9dw0k25nn7' name='Data' table='[Data$]' type='table'>
+            <columns gridOrigin='A1:BF216:no:A1:BF216:0' header='yes' outcome='2'>
+              <column datatype='string' name='Country Name' ordinal='0' />
+              <column datatype='string' name='Country Code' ordinal='1' />
+              <column datatype='string' name='Indicator Name' ordinal='2' />
+              <column datatype='string' name='Indicator Code' ordinal='3' />
+              <column datatype='real' name='1960' ordinal='4' />
+              <column datatype='real' name='1961' ordinal='5' />
+              <column datatype='real' name='1962' ordinal='6' />
+              <column datatype='real' name='1963' ordinal='7' />
+              <column datatype='real' name='1964' ordinal='8' />
+              <column datatype='real' name='1965' ordinal='9' />
+              <column datatype='real' name='1966' ordinal='10' />
+              <column datatype='real' name='1967' ordinal='11' />
+              <column datatype='real' name='1968' ordinal='12' />
+              <column datatype='real' name='1969' ordinal='13' />
+              <column datatype='real' name='1970' ordinal='14' />
+              <column datatype='real' name='1971' ordinal='15' />
+              <column datatype='real' name='1972' ordinal='16' />
+              <column datatype='real' name='1973' ordinal='17' />
+              <column datatype='real' name='1974' ordinal='18' />
+              <column datatype='real' name='1975' ordinal='19' />
+              <column datatype='real' name='1976' ordinal='20' />
+              <column datatype='real' name='1977' ordinal='21' />
+              <column datatype='real' name='1978' ordinal='22' />
+              <column datatype='real' name='1979' ordinal='23' />
+              <column datatype='real' name='1980' ordinal='24' />
+              <column datatype='real' name='1981' ordinal='25' />
+              <column datatype='real' name='1982' ordinal='26' />
+              <column datatype='real' name='1983' ordinal='27' />
+              <column datatype='real' name='1984' ordinal='28' />
+              <column datatype='real' name='1985' ordinal='29' />
+              <column datatype='real' name='1986' ordinal='30' />
+              <column datatype='real' name='1987' ordinal='31' />
+              <column datatype='real' name='1988' ordinal='32' />
+              <column datatype='real' name='1989' ordinal='33' />
+              <column datatype='real' name='1990' ordinal='34' />
+              <column datatype='real' name='1991' ordinal='35' />
+              <column datatype='real' name='1992' ordinal='36' />
+              <column datatype='real' name='1993' ordinal='37' />
+              <column datatype='real' name='1994' ordinal='38' />
+              <column datatype='real' name='1995' ordinal='39' />
+              <column datatype='real' name='1996' ordinal='40' />
+              <column datatype='real' name='1997' ordinal='41' />
+              <column datatype='real' name='1998' ordinal='42' />
+              <column datatype='real' name='1999' ordinal='43' />
+              <column datatype='real' name='2000' ordinal='44' />
+              <column datatype='real' name='2001' ordinal='45' />
+              <column datatype='real' name='2002' ordinal='46' />
+              <column datatype='real' name='2003' ordinal='47' />
+              <column datatype='real' name='2004' ordinal='48' />
+              <column datatype='real' name='2005' ordinal='49' />
+              <column datatype='real' name='2006' ordinal='50' />
+              <column datatype='real' name='2007' ordinal='51' />
+              <column datatype='real' name='2008' ordinal='52' />
+              <column datatype='real' name='2009' ordinal='53' />
+              <column datatype='real' name='2010' ordinal='54' />
+              <column datatype='real' name='2011' ordinal='55' />
+              <column datatype='real' name='2012' ordinal='56' />
+              <column datatype='real' name='2013' ordinal='57' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Name]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Indicator Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Indicator Code]</local-name>
+            <parent-name>[Data]</parent-name>
+            <remote-alias>Indicator Code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:BF216:no:A1:BF216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Life Expectancy at Birth' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.529412' measure-ordering='alphabetic' measure-percentage='0.470588' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+    <datasource caption='Metadata - Countries (P11-Country-Metadata)' inline='true' name='federated.0ycyua2153a10p1go6dkf01mnaa3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='P11-Country-Metadata' name='excel-direct.005tnin0fv4fln0zkmm3v1p301rg'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/viwong/OneDrive - HKTDC/vicwork/online course/Tableau/Tableau 10 Advanced Training - Master Tableau in data science/Section 5 Animations/P11-Country-Metadata.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.005tnin0fv4fln0zkmm3v1p301rg' name='Metadata - Countries' table='[&apos;Metadata - Countries$&apos;]' type='table'>
+          <columns gridOrigin='A1:E216:no:A1:E216:0' header='yes' outcome='2'>
+            <column datatype='string' name='Country Name' ordinal='0' />
+            <column datatype='string' name='Country Code' ordinal='1' />
+            <column datatype='string' name='Region' ordinal='2' />
+            <column datatype='string' name='IncomeGroup' ordinal='3' />
+            <column datatype='string' name='SpecialNotes' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Country Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Name]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>Country Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country Code]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>Country Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IncomeGroup</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[IncomeGroup]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>IncomeGroup</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SpecialNotes</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SpecialNotes]</local-name>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias>SpecialNotes</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RGB_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Metadata - Countries]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E216:no:A1:E216:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Income Group' datatype='string' name='[IncomeGroup]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+      <column caption='Special Notes' datatype='string' name='[SpecialNotes]' role='dimension' type='nominal' />
+      <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.54' measure-ordering='alphabetic' measure-percentage='0.46' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Region:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Latin America &amp; Caribbean&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Middle East &amp; North Africa&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sub-Saharan Africa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;East Asia &amp; Pacific&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;South Asia&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Europe &amp; Central Asia&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <default-sorts>
+        <manual-sort column='[none:Region:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;East Asia &amp; Pacific&quot;</bucket>
+            <bucket>&quot;Europe &amp; Central Asia&quot;</bucket>
+            <bucket>&quot;Latin America &amp; Caribbean&quot;</bucket>
+            <bucket>&quot;Middle East &amp; North Africa&quot;</bucket>
+            <bucket>&quot;North America&quot;</bucket>
+            <bucket>&quot;South Asia&quot;</bucket>
+            <bucket>&quot;Sub-Saharan Africa&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+    </datasource>
+  </datasources>
+  <datasource-relationships>
+    <datasource-dependencies datasource='federated.0jbmvs3072iz9u1g8s42i13q6lfh'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.0ycyua2153a10p1go6dkf01mnaa3'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1tv75om1xp8x5r19fwljt1yzn5cn'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-dependencies datasource='federated.1yp44dn0wced6e16gxa4g0id676b'>
+      <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column-instance column='[Country Code]' derivation='None' name='[none:Country Code:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+    </datasource-dependencies>
+    <datasource-relationship source='federated.1tv75om1xp8x5r19fwljt1yzn5cn' target='federated.0jbmvs3072iz9u1g8s42i13q6lfh'>
+      <column-mapping>
+        <map key='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Country Code:nk]' value='[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[none:Country Code:nk]' />
+        <map key='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]' value='[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[none:Pivot Field Names:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1tv75om1xp8x5r19fwljt1yzn5cn' target='federated.0ycyua2153a10p1go6dkf01mnaa3'>
+      <column-mapping>
+        <map key='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Country Code:nk]' value='[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Country Code:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+    <datasource-relationship source='federated.1tv75om1xp8x5r19fwljt1yzn5cn' target='federated.1yp44dn0wced6e16gxa4g0id676b'>
+      <column-mapping>
+        <map key='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Country Code:nk]' value='[federated.1yp44dn0wced6e16gxa4g0id676b].[none:Country Code:nk]' />
+        <map key='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]' value='[federated.1yp44dn0wced6e16gxa4g0id676b].[none:Pivot Field Names:nk]' />
+      </column-mapping>
+    </datasource-relationship>
+  </datasource-relationships>
+  <worksheets>
+    <worksheet name='Life exp VS fertility'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Data (P11-Country-Population)' name='federated.1tv75om1xp8x5r19fwljt1yzn5cn' />
+            <datasource caption='Data (P11-Fertility-Rate)' name='federated.0jbmvs3072iz9u1g8s42i13q6lfh' />
+            <datasource caption='Metadata - Countries (P11-Country-Metadata)' name='federated.0ycyua2153a10p1go6dkf01mnaa3' />
+            <datasource caption='Data (P11-Life-Expectancy-At-Birth)' name='federated.1yp44dn0wced6e16gxa4g0id676b' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0jbmvs3072iz9u1g8s42i13q6lfh'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Fertility Rate' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0ycyua2153a10p1go6dkf01mnaa3'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Country Name]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column-instance column='[Country Name]' derivation='None' name='[none:Country Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1tv75om1xp8x5r19fwljt1yzn5cn'>
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Population' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Names]' derivation='None' name='[none:Pivot Field Names:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.1yp44dn0wced6e16gxa4g0id676b'>
+            <column datatype='string' name='[Country Code]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Year' datatype='string' name='[Pivot Field Names]' role='dimension' type='nominal' />
+            <column caption='Life Expectancy at Birth' datatype='real' name='[Pivot Field Values]' role='measure' type='quantitative' />
+            <column-instance column='[Pivot Field Values]' derivation='Sum' name='[sum:Pivot Field Values:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_0' value='#fafafa00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]' />
+              <size column='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]' />
+              <lod column='[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Country Name:nk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>Country Name:&#9;</run>
+                <run bold='true'>&lt;[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Country Name:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Region:&#9;</run>
+                <run bold='true'>&lt;[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year:&#9;</run>
+                <run bold='true'>&lt;[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Fertility Rate:&#9;</run>
+                <run bold='true'>&lt;[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Population:&#9;</run>
+                <run bold='true'>&lt;[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Life Expectancy at Birth:&#9;</run>
+                <run bold='true'>&lt;[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]&gt;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.3756906986236572' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#000000' />
+                <format attr='mark-transparency' value='193' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</rows>
+        <cols>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</cols>
+        <pages>
+          <column>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]</column>
+        </pages>
+        <join-lod-include-overrides>
+          <column>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[Country Code]</column>
+          <column>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[Pivot Field Names]</column>
+          <column>[federated.0ycyua2153a10p1go6dkf01mnaa3].[Country Code]</column>
+          <column>[federated.1yp44dn0wced6e16gxa4g0id676b].[Country Code]</column>
+          <column>[federated.1yp44dn0wced6e16gxa4g0id676b].[Pivot Field Names]</column>
+        </join-lod-include-overrides>
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text>
+              <run bold='true' fontsize='36'>&lt;Page Name&gt;</run>
+            </formatted-text>
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='6.6462907097173538'>
+                  <node-reference>
+                    <axis>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='87.799660117964379'>
+                  <node-reference>
+                    <axis>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;2013&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='9.3203842374551957'>
+                  <node-reference>
+                    <axis>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='61.780004003977972'>
+                  <node-reference>
+                    <axis>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference>
+                  <fields>
+                    <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;2013&quot;</bucket>
+                  </multibucket>
+                </page-reference>
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+        <page-trail-options enabled='true' lines='true' />
+      </table>
+      <simple-id uuid='{B9831EF1-AC95-47AE-AF1D-7C548FED9485}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='98000' id='3' name='Life exp VS fertility' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='21375' id='9' name='Life exp VS fertility' pane-specification-id='0' param='[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]' type='color' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='13875' id='8' name='Life exp VS fertility' pane-specification-id='0' param='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]' type='size' w='16000' x='83200' y='22375'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='14125' id='10' name='Life exp VS fertility' synchronized='1' type='currpage' w='16000' x='83200' y='36250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='14' param='vert' type='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Life exp VS fertility' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='21375' id='9' name='Life exp VS fertility' pane-specification-id='0' param='[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]' type='color' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='13875' id='8' name='Life exp VS fertility' pane-specification-id='0' param='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]' type='size' w='16000' x='83200' y='22375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='14125' id='10' name='Life exp VS fertility' synchronized='1' type='currpage' w='16000' x='83200' y='36250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{087A32F9-25B6-4AC0-8101-779C0180816B}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='115'>
+    <window class='worksheet' name='Life exp VS fertility'>
+      <cards>
+        <edge name='left'>
+          <strip size='268'>
+            <card size='16' type='pages' />
+            <card size='28' type='filters' />
+            <card size='45' type='currpage' />
+            <card size='134' type='marks' />
+            <card pane-specification-id='0' param='[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]' size='42' type='size' />
+            <card pane-specification-id='0' param='[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]' size='40' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>&quot;2013&quot;</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Country Name:nk]</field>
+            <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]</field>
+            <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{969E1109-C33C-466F-8A24-61B1A1E7A11B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Life exp VS fertility'>
+          <current-page>
+            <multibucket>
+              <bucket>&quot;2013&quot;</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Country Name:nk]</field>
+                    <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]</field>
+                    <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]</field>
+                    <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]</field>
+                    <field>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</field>
+                    <field>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>&quot;India&quot;</value>
+                  <value>&quot;South Asia&quot;</value>
+                  <value>&quot;1960&quot;</value>
+                  <value>449661874</value>
+                  <value>5.8700000000000001</value>
+                  <value>41.383634146341464</value>
+                </tuple>
+              </tuple-reference>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Country Name:nk]</field>
+                    <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]</field>
+                    <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[none:Pivot Field Names:nk]</field>
+                    <field>[federated.1tv75om1xp8x5r19fwljt1yzn5cn].[sum:Pivot Field Values:qk]</field>
+                    <field>[federated.0jbmvs3072iz9u1g8s42i13q6lfh].[sum:Pivot Field Values:qk]</field>
+                    <field>[federated.1yp44dn0wced6e16gxa4g0id676b].[sum:Pivot Field Values:qk]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>&quot;China&quot;</value>
+                  <value>&quot;East Asia &amp; Pacific&quot;</value>
+                  <value>&quot;1960&quot;</value>
+                  <value>667070000</value>
+                  <value>5.758</value>
+                  <value>43.465804878048793</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+          <highlight>
+            <color-one-way>
+              <field>[federated.0ycyua2153a10p1go6dkf01mnaa3].[none:Region:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='10' />
+      <simple-id uuid='{D92B9C25-C521-4984-AD02-4B69CD499752}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Life exp VS fertility' width='192'>
+      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
+      zjHFvdoAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

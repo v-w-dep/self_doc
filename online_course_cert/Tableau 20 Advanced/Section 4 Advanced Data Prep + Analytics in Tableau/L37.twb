@@ -1,0 +1,923 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20192.19.0515.1630                               -->
+<workbook original-version='18.1' source-build='2019.2.0 (20192.19.0515.1630)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Data1 (L37-310104-Australian-Demographic-Statistics)' inline='true' name='federated.18ax2yj16h3qm20zwx4k70h71bj0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='L37-310104-Australian-Demographic-Statistics' name='excel-direct.08bq68211on5g414waiva1bva98t'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/viwong/OneDrive - HKTDC/vicwork/online course/Tableau/Tableau 10 Advanced Training - Master Tableau in data science/Section 4 Advanced Data Prep + Analytics in Tableau/L37-310104-Australian-Demographic-Statistics.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='integer' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Estimated Resident Population ;  Female ;  Australia ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  Australian Capital Territory ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  New South Wales ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  Northern Territory ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  Queensland ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  South Australia ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  Tasmania ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  Victoria ;]' />
+            <value name='[Estimated Resident Population ;  Female ;  Western Australia ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Australia ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Australian Capital Territory ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  New South Wales ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Northern Territory ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Queensland ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  South Australia ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Tasmania ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Victoria ;]' />
+            <value name='[Estimated Resident Population ;  Male ;  Western Australia ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Australia ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Australian Capital Territory ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  New South Wales ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Northern Territory ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Queensland ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  South Australia ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Tasmania ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Victoria ;]' />
+            <value name='[Estimated Resident Population ;  Persons ;  Western Australia ;]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Australian Capital Territory ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  New South Wales ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Northern Territory ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Queensland ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  South Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Tasmania ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Victoria ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Female ;  Western Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Australian Capital Territory ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  New South Wales ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Northern Territory ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Queensland ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  South Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Tasmania ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Victoria ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Male ;  Western Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Australian Capital Territory ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  New South Wales ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Northern Territory ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Queensland ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  South Australia ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Tasmania ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Victoria ;]' />
+              <field name='[Data1].[Estimated Resident Population ;  Persons ;  Western Australia ;]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.08bq68211on5g414waiva1bva98t' name='Data1' table='[Data1$]' type='table'>
+            <columns gridOrigin='A1:AB137:no:A1:AB137:0' header='yes' outcome='6'>
+              <column datatype='date' name='F1' ordinal='0' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  New South Wales ;' ordinal='1' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Victoria ;' ordinal='2' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Queensland ;' ordinal='3' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  South Australia ;' ordinal='4' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Western Australia ;' ordinal='5' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Tasmania ;' ordinal='6' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Northern Territory ;' ordinal='7' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Australian Capital Territory ;' ordinal='8' />
+              <column datatype='integer' name='Estimated Resident Population ;  Male ;  Australia ;' ordinal='9' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  New South Wales ;' ordinal='10' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Victoria ;' ordinal='11' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Queensland ;' ordinal='12' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  South Australia ;' ordinal='13' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Western Australia ;' ordinal='14' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Tasmania ;' ordinal='15' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Northern Territory ;' ordinal='16' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Australian Capital Territory ;' ordinal='17' />
+              <column datatype='integer' name='Estimated Resident Population ;  Female ;  Australia ;' ordinal='18' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  New South Wales ;' ordinal='19' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Victoria ;' ordinal='20' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Queensland ;' ordinal='21' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  South Australia ;' ordinal='22' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Western Australia ;' ordinal='23' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Tasmania ;' ordinal='24' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Northern Territory ;' ordinal='25' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Australian Capital Territory ;' ordinal='26' />
+              <column datatype='integer' name='Estimated Resident Population ;  Persons ;  Australia ;' ordinal='27' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Data1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AB137:no:A1:AB137:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Gender' datatype='string' name='[Pivot Field Names - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.18ax2yj16h3qm20zwx4k70h71bj0].[Pivot Field Names]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( SPLIT( SPLIT( SPLIT( [Pivot Field Names], &quot;Estimated&quot;, 2 ), &quot;Resident&quot;, 2 ), &quot;Population&quot;, 2 ), &quot;;&quot;, 2 ) )' />
+      </column>
+      <column caption='State' datatype='string' name='[Pivot Field Names - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.18ax2yj16h3qm20zwx4k70h71bj0].[Pivot Field Names]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( SPLIT( SPLIT( SPLIT( [Pivot Field Names], &quot;Estimated&quot;, 2 ), &quot;Resident&quot;, 2 ), &quot;Population&quot;, 2 ), &quot;;&quot;, 3 ) )' />
+      </column>
+      <column datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='integer' name='[Pivot Field Values]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.526419' measure-ordering='alphabetic' measure-percentage='0.473581' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <filter class='categorical' column='[Pivot Field Names - Split 1]' filter-group='2'>
+        <groupfilter function='member' level='[Pivot Field Names - Split 1]' member='&quot;Persons&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+    </datasource>
+    <datasource caption='Data1 (L37-8501011-Retail-Turnover-State-by-Industry-Subgroup)' inline='true' name='federated.0bvio461nicuwa1d6oapt010b8ju' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='L37-8501011-Retail-Turnover-State-by-Industry-Subgroup' name='excel-direct.1xh95s80puhfqz1d5eery17ah7mc'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/viwong/OneDrive - HKTDC/vicwork/online course/Tableau/Tableau 10 Advanced Training - Master Tableau in data science/Section 4 Advanced Data Prep + Analytics in Tableau/L37-8501011-Retail-Turnover-State-by-Industry-Subgroup.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation name='Pivot' type='pivot'>
+          <columns>
+            <column datatype='string' name='Pivot Field Names' />
+            <column datatype='string' name='Pivot Field Values' />
+          </columns>
+          <tag name='Pivot Field Names'>
+            <value name='[Turnover ;  Australian Capital Territory ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Department stores ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Food retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Other retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Australian Capital Territory ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  New South Wales ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  New South Wales ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  New South Wales ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Department stores ;]' />
+            <value name='[Turnover ;  New South Wales ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Food retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Other retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  New South Wales ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  New South Wales ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  New South Wales ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  New South Wales ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Department stores ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Food retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Other retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Northern Territory ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  Queensland ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Queensland ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Queensland ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Department stores ;]' />
+            <value name='[Turnover ;  Queensland ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Food retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Other retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Queensland ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Queensland ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Queensland ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Queensland ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  South Australia ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  South Australia ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  South Australia ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Department stores ;]' />
+            <value name='[Turnover ;  South Australia ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Food retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Other retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  South Australia ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  South Australia ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  South Australia ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  South Australia ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  Tasmania ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Tasmania ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Tasmania ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Department stores ;]' />
+            <value name='[Turnover ;  Tasmania ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Food retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Other retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Tasmania ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Tasmania ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Tasmania ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Tasmania ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  Total (State) ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Total (State) ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Total (State) ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Department stores ;]' />
+            <value name='[Turnover ;  Total (State) ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Food retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Other retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Total (State) ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Total (State) ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Total (State) ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Total (State) ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  Victoria ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Victoria ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Victoria ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Department stores ;]' />
+            <value name='[Turnover ;  Victoria ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Food retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Other retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Victoria ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Victoria ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Victoria ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Victoria ;  Total (Industry) ;]' />
+            <value name='[Turnover ;  Western Australia ;  Cafes, restaurants and catering services ;]' />
+            <value name='[Turnover ;  Western Australia ;  Cafes, restaurants and takeaway food services ;]' />
+            <value name='[Turnover ;  Western Australia ;  Clothing retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Clothing, footwear and personal accessory retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Department stores ;]' />
+            <value name='[Turnover ;  Western Australia ;  Electrical and electronic goods retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Food retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Footwear and other personal accessory retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Hardware, building and garden supplies retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Household goods retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Liquor retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Newspaper and book retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Other recreational goods retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Other retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Other retailing n.e.c. ;]' />
+            <value name='[Turnover ;  Western Australia ;  Other specialised food retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+            <value name='[Turnover ;  Western Australia ;  Supermarket and grocery stores ;]' />
+            <value name='[Turnover ;  Western Australia ;  Takeaway food services ;]' />
+            <value name='[Turnover ;  Western Australia ;  Total (Industry) ;]' />
+          </tag>
+          <groups>
+            <group name='Pivot Field Values'>
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Australian Capital Territory ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  New South Wales ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Northern Territory ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Queensland ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  South Australia ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Tasmania ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Total (State) ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Victoria ;  Total (Industry) ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Cafes, restaurants and catering services ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Cafes, restaurants and takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Clothing retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Clothing, footwear and personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Department stores ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Electrical and electronic goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Footwear and other personal accessory retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Furniture, floor coverings, houseware and textile goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Hardware, building and garden supplies retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Household goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Liquor retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Newspaper and book retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Other recreational goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Other retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Other retailing n.e.c. ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Other specialised food retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Pharmaceutical, cosmetic and toiletry goods retailing ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Supermarket and grocery stores ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Takeaway food services ;]' />
+              <field name='[Data1].[Turnover ;  Western Australia ;  Total (Industry) ;]' />
+            </group>
+          </groups>
+          <relation connection='excel-direct.1xh95s80puhfqz1d5eery17ah7mc' name='Data1' table='[Data1$]' type='table'>
+            <columns gridOrigin='A1:GH402:no:A1:GH402:0' header='yes' outcome='6'>
+              <column datatype='date' name='F1' ordinal='0' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Supermarket and grocery stores ;' ordinal='1' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Liquor retailing ;' ordinal='2' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Other specialised food retailing ;' ordinal='3' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Food retailing ;' ordinal='4' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='5' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Electrical and electronic goods retailing ;' ordinal='6' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Hardware, building and garden supplies retailing ;' ordinal='7' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Household goods retailing ;' ordinal='8' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Clothing retailing ;' ordinal='9' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Footwear and other personal accessory retailing ;' ordinal='10' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Clothing, footwear and personal accessory retailing ;' ordinal='11' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Department stores ;' ordinal='12' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Newspaper and book retailing ;' ordinal='13' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Other recreational goods retailing ;' ordinal='14' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='15' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Other retailing n.e.c. ;' ordinal='16' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Other retailing ;' ordinal='17' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Cafes, restaurants and catering services ;' ordinal='18' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Takeaway food services ;' ordinal='19' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Cafes, restaurants and takeaway food services ;' ordinal='20' />
+              <column datatype='real' name='Turnover ;  New South Wales ;  Total (Industry) ;' ordinal='21' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Supermarket and grocery stores ;' ordinal='22' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Liquor retailing ;' ordinal='23' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Other specialised food retailing ;' ordinal='24' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Food retailing ;' ordinal='25' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='26' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Electrical and electronic goods retailing ;' ordinal='27' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Hardware, building and garden supplies retailing ;' ordinal='28' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Household goods retailing ;' ordinal='29' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Clothing retailing ;' ordinal='30' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Footwear and other personal accessory retailing ;' ordinal='31' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Clothing, footwear and personal accessory retailing ;' ordinal='32' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Department stores ;' ordinal='33' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Newspaper and book retailing ;' ordinal='34' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Other recreational goods retailing ;' ordinal='35' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='36' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Other retailing n.e.c. ;' ordinal='37' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Other retailing ;' ordinal='38' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Cafes, restaurants and catering services ;' ordinal='39' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Takeaway food services ;' ordinal='40' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Cafes, restaurants and takeaway food services ;' ordinal='41' />
+              <column datatype='real' name='Turnover ;  Victoria ;  Total (Industry) ;' ordinal='42' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Supermarket and grocery stores ;' ordinal='43' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Liquor retailing ;' ordinal='44' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Other specialised food retailing ;' ordinal='45' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Food retailing ;' ordinal='46' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='47' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Electrical and electronic goods retailing ;' ordinal='48' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Hardware, building and garden supplies retailing ;' ordinal='49' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Household goods retailing ;' ordinal='50' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Clothing retailing ;' ordinal='51' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Footwear and other personal accessory retailing ;' ordinal='52' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Clothing, footwear and personal accessory retailing ;' ordinal='53' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Department stores ;' ordinal='54' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Newspaper and book retailing ;' ordinal='55' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Other recreational goods retailing ;' ordinal='56' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='57' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Other retailing n.e.c. ;' ordinal='58' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Other retailing ;' ordinal='59' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Cafes, restaurants and catering services ;' ordinal='60' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Takeaway food services ;' ordinal='61' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Cafes, restaurants and takeaway food services ;' ordinal='62' />
+              <column datatype='real' name='Turnover ;  Queensland ;  Total (Industry) ;' ordinal='63' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Supermarket and grocery stores ;' ordinal='64' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Liquor retailing ;' ordinal='65' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Other specialised food retailing ;' ordinal='66' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Food retailing ;' ordinal='67' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='68' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Electrical and electronic goods retailing ;' ordinal='69' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Hardware, building and garden supplies retailing ;' ordinal='70' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Household goods retailing ;' ordinal='71' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Clothing retailing ;' ordinal='72' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Footwear and other personal accessory retailing ;' ordinal='73' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Clothing, footwear and personal accessory retailing ;' ordinal='74' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Department stores ;' ordinal='75' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Newspaper and book retailing ;' ordinal='76' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Other recreational goods retailing ;' ordinal='77' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='78' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Other retailing n.e.c. ;' ordinal='79' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Other retailing ;' ordinal='80' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Cafes, restaurants and catering services ;' ordinal='81' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Takeaway food services ;' ordinal='82' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Cafes, restaurants and takeaway food services ;' ordinal='83' />
+              <column datatype='real' name='Turnover ;  South Australia ;  Total (Industry) ;' ordinal='84' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Supermarket and grocery stores ;' ordinal='85' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Liquor retailing ;' ordinal='86' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Other specialised food retailing ;' ordinal='87' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Food retailing ;' ordinal='88' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='89' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Electrical and electronic goods retailing ;' ordinal='90' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Hardware, building and garden supplies retailing ;' ordinal='91' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Household goods retailing ;' ordinal='92' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Clothing retailing ;' ordinal='93' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Footwear and other personal accessory retailing ;' ordinal='94' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Clothing, footwear and personal accessory retailing ;' ordinal='95' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Department stores ;' ordinal='96' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Newspaper and book retailing ;' ordinal='97' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Other recreational goods retailing ;' ordinal='98' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='99' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Other retailing n.e.c. ;' ordinal='100' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Other retailing ;' ordinal='101' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Cafes, restaurants and catering services ;' ordinal='102' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Takeaway food services ;' ordinal='103' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Cafes, restaurants and takeaway food services ;' ordinal='104' />
+              <column datatype='real' name='Turnover ;  Western Australia ;  Total (Industry) ;' ordinal='105' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Supermarket and grocery stores ;' ordinal='106' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Liquor retailing ;' ordinal='107' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Other specialised food retailing ;' ordinal='108' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Food retailing ;' ordinal='109' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='110' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Electrical and electronic goods retailing ;' ordinal='111' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Hardware, building and garden supplies retailing ;' ordinal='112' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Household goods retailing ;' ordinal='113' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Clothing retailing ;' ordinal='114' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Footwear and other personal accessory retailing ;' ordinal='115' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Clothing, footwear and personal accessory retailing ;' ordinal='116' />
+              <column datatype='string' name='Turnover ;  Tasmania ;  Department stores ;' ordinal='117' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Newspaper and book retailing ;' ordinal='118' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Other recreational goods retailing ;' ordinal='119' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='120' />
+              <column datatype='string' name='Turnover ;  Tasmania ;  Other retailing n.e.c. ;' ordinal='121' />
+              <column datatype='string' name='Turnover ;  Tasmania ;  Other retailing ;' ordinal='122' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Cafes, restaurants and catering services ;' ordinal='123' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Takeaway food services ;' ordinal='124' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Cafes, restaurants and takeaway food services ;' ordinal='125' />
+              <column datatype='real' name='Turnover ;  Tasmania ;  Total (Industry) ;' ordinal='126' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Supermarket and grocery stores ;' ordinal='127' />
+              <column datatype='string' name='Turnover ;  Northern Territory ;  Liquor retailing ;' ordinal='128' />
+              <column datatype='string' name='Turnover ;  Northern Territory ;  Other specialised food retailing ;' ordinal='129' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Food retailing ;' ordinal='130' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='131' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Electrical and electronic goods retailing ;' ordinal='132' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Hardware, building and garden supplies retailing ;' ordinal='133' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Household goods retailing ;' ordinal='134' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Clothing retailing ;' ordinal='135' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Footwear and other personal accessory retailing ;' ordinal='136' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Clothing, footwear and personal accessory retailing ;' ordinal='137' />
+              <column datatype='string' name='Turnover ;  Northern Territory ;  Department stores ;' ordinal='138' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Newspaper and book retailing ;' ordinal='139' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Other recreational goods retailing ;' ordinal='140' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='141' />
+              <column datatype='string' name='Turnover ;  Northern Territory ;  Other retailing n.e.c. ;' ordinal='142' />
+              <column datatype='string' name='Turnover ;  Northern Territory ;  Other retailing ;' ordinal='143' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Cafes, restaurants and catering services ;' ordinal='144' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Takeaway food services ;' ordinal='145' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Cafes, restaurants and takeaway food services ;' ordinal='146' />
+              <column datatype='real' name='Turnover ;  Northern Territory ;  Total (Industry) ;' ordinal='147' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Supermarket and grocery stores ;' ordinal='148' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Liquor retailing ;' ordinal='149' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Other specialised food retailing ;' ordinal='150' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Food retailing ;' ordinal='151' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='152' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Electrical and electronic goods retailing ;' ordinal='153' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Hardware, building and garden supplies retailing ;' ordinal='154' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Household goods retailing ;' ordinal='155' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Clothing retailing ;' ordinal='156' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Footwear and other personal accessory retailing ;' ordinal='157' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Clothing, footwear and personal accessory retailing ;' ordinal='158' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Department stores ;' ordinal='159' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Newspaper and book retailing ;' ordinal='160' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Other recreational goods retailing ;' ordinal='161' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='162' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Other retailing n.e.c. ;' ordinal='163' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Other retailing ;' ordinal='164' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Cafes, restaurants and catering services ;' ordinal='165' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Takeaway food services ;' ordinal='166' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Cafes, restaurants and takeaway food services ;' ordinal='167' />
+              <column datatype='real' name='Turnover ;  Australian Capital Territory ;  Total (Industry) ;' ordinal='168' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Supermarket and grocery stores ;' ordinal='169' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Liquor retailing ;' ordinal='170' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Other specialised food retailing ;' ordinal='171' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Food retailing ;' ordinal='172' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Furniture, floor coverings, houseware and textile goods retailing ;' ordinal='173' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Electrical and electronic goods retailing ;' ordinal='174' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Hardware, building and garden supplies retailing ;' ordinal='175' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Household goods retailing ;' ordinal='176' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Clothing retailing ;' ordinal='177' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Footwear and other personal accessory retailing ;' ordinal='178' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Clothing, footwear and personal accessory retailing ;' ordinal='179' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Department stores ;' ordinal='180' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Newspaper and book retailing ;' ordinal='181' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Other recreational goods retailing ;' ordinal='182' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Pharmaceutical, cosmetic and toiletry goods retailing ;' ordinal='183' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Other retailing n.e.c. ;' ordinal='184' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Other retailing ;' ordinal='185' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Cafes, restaurants and catering services ;' ordinal='186' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Takeaway food services ;' ordinal='187' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Cafes, restaurants and takeaway food services ;' ordinal='188' />
+              <column datatype='real' name='Turnover ;  Total (State) ;  Total (Industry) ;' ordinal='189' />
+            </columns>
+          </relation>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Data1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Data1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>191</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:GH402:no:A1:GH402:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Names</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Names]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Names</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pivot Field Values</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pivot Field Values]</local-name>
+            <parent-name>[Pivot]</parent-name>
+            <remote-alias>Pivot Field Values</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Pivot Field Names - Split 1 - Split 1' datatype='string' name='[Pivot Field Names - Split 1 - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='3' user:SplitFieldOrigin='[federated.0bvio461nicuwa1d6oapt010b8ju].[Pivot Field Names - Split 1]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Pivot Field Names - Split 1], &quot; &quot;, 1 ) )' />
+      </column>
+      <column caption='Pivot Field Names - Split 1 - Split 2' datatype='string' hidden='true' name='[Pivot Field Names - Split 1 - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='4' user:SplitFieldOrigin='[federated.0bvio461nicuwa1d6oapt010b8ju].[Pivot Field Names - Split 1]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( [Pivot Field Names - Split 1], &quot; &quot;, 2 ) )' />
+      </column>
+      <column caption='Pivot Field Names - Split 1' datatype='string' hidden='true' name='[Pivot Field Names - Split 1]' role='dimension' type='nominal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[federated.0bvio461nicuwa1d6oapt010b8ju].[Pivot Field Names]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( SPLIT( [Pivot Field Names], &quot;Turnover&quot;, 2 ), &quot;;&quot;, 2 ) )' />
+      </column>
+      <column caption='Pivot Field Names - Split 2' datatype='string' name='[Pivot Field Names - Split 2]' role='dimension' type='nominal' user:SplitFieldIndex='2' user:SplitFieldOrigin='[federated.0bvio461nicuwa1d6oapt010b8ju].[Pivot Field Names]'>
+        <calculation class='tableau' formula='TRIM( SPLIT( SPLIT( [Pivot Field Names], &quot;Turnover&quot;, 2 ), &quot;;&quot;, 3 ) )' />
+      </column>
+      <column datatype='string' hidden='true' name='[Pivot Field Names]' role='dimension' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.320939' measure-ordering='alphabetic' measure-percentage='0.679061' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Hong Kong&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{B0B0DE7C-7A22-4A8C-9B47-4DD454FFA27E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D11FF849-242E-4A10-9799-3BF9C0F0C255}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
